@@ -146,6 +146,10 @@
     height:10px;
     margin:0 5px;
 }
+#password-strength .tick.highlight {
+    background-color:#080;
+    box-shadow:0 0 10px #080;
+}
 #saturn {
     background-image:url("images/saturn.png");
 }

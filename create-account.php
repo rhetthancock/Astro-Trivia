@@ -58,7 +58,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
         }
         else {
             if($password != $passwordConfirm) {
-                $_SESSION["errors"]["password"] = "Passwords Didn't Match";
+                $_SESSION["errors"]["password"] = "Passwords Don't Match";
                 $_SESSION["errors"]["password-confirm"] = "";
             }
         }
